@@ -87,6 +87,16 @@
             letter-spacing: 10px;
             animation: text-appear 1s forwards;
             animation-delay: 2.5s;
+            padding: 10px 20px;
+            border: 3px solid white; /* Added white border */
+        }
+        
+        /* Individual letter styling with glow effect */
+        .netflix-text span {
+            display: inline-block;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                         0 0 20px rgba(255, 255, 255, 0.5),
+                         0 0 30px rgba(255, 255, 255, 0.3);
         }
         
         @keyframes text-appear {
@@ -360,7 +370,17 @@
             <div class="line"></div>
             <div class="line"></div>
         </div>
-        <div class="netflix-text">PORTFOLIO</div>
+        <div class="netflix-text">
+            <span>P</span>
+            <span>O</span>
+            <span>R</span>
+            <span>T</span>
+            <span>F</span>
+            <span>O</span>
+            <span>L</span>
+            <span>I</span>
+            <span>O</span>
+        </div>
     </div>
 
     <!-- Main Portfolio Content -->
@@ -378,7 +398,7 @@
         </header>
 
         <section id="home" class="hero">
-            <h1>Arin Karmakar<br>Data Analyst & Web Developer</h1>
+            <h1>Arin Karmakar<br>Creative Developer & Data Analyst</h1>
             <p>I create stunning digital experiences that captivate and engage your audience.</p>
             <a href="#contact" class="btn">Get In Touch</a>
         </section>
@@ -419,16 +439,20 @@
             </div>
             <div class="about-content">
                 <h2>About Me</h2>
-                <p>Hello! I'm Arin Karmakar, a passionate web developer and designer with over 5 years of experience creating digital solutions that help businesses grow. My journey in the tech world began with a simple curiosity about how websites work, which quickly evolved into a deep passion for building elegant, user-friendly digital experiences.</p>
-                <p>I specialize in front-end development and UI/UX design, with expertise in creating responsive, accessible websites that not only look great but also perform exceptionally well. I believe that good design is not just about aesthetics but also about creating intuitive user experiences that solve real problems.</p>
-                <p>When I'm not coding, you can find me exploring new design trends, hiking in nature, or experimenting with photography.</p>
+                <p>Hello! I'm Arin Karmakar, a passionate web developer and data analyst with over 5 years of experience creating digital solutions that help businesses grow. My journey in the tech world began with a simple curiosity about how websites work, which quickly evolved into a deep passion for building elegant, user-friendly digital experiences and extracting meaningful insights from data.</p>
+                <p>I specialize in front-end development and data analysis, with expertise in creating responsive, accessible websites that not only look great but also perform exceptionally well. I believe that good design is not just about aesthetics but also about creating intuitive user experiences that solve real problems, complemented by powerful data insights.</p>
+                <p>When I'm not coding or analyzing data, you can find me exploring new design trends, hiking in nature, or experimenting with photography.</p>
                 <div class="skills">
                     <span class="skill-tag">HTML5</span>
                     <span class="skill-tag">CSS3</span>
                     <span class="skill-tag">JavaScript</span>
                     <span class="skill-tag">React</span>
                     <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Data Analysis</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Tableau</span>
+                    <span class="skill-tag">Machine Learning</span>
                     <span class="skill-tag">Responsive Design</span>
                     <span class="skill-tag">WordPress</span>
                 </div>
@@ -461,7 +485,7 @@
         </section>
 
         <footer>
-            <p>&copy; 2025 John Doe | Creative Developer</p>
+            <p>&copy; 2025 Arin Karmakar | Creative Developer & Data Analyst</p>
             <div class="social-links">
                 <a href="#"><i>LinkedIn</i></a>
                 <a href="#"><i>GitHub</i></a>
